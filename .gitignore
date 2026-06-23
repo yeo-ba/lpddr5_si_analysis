@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Generated simulation artifacts (reproducible via `python main.py`)
+netlists/
+raw_outputs/
+models/*.pkl
+
+# Intermediate data (keep result CSVs, drop the large param index)
+data/param_index.csv
+data/failed_sims.csv
+
+# OS / editor / tooling
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
